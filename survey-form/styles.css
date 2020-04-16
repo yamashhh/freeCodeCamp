@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+p {
+    margin: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 20vh;
+    resize: vertical;
+}
+
+.text-center {
+    text-align: center;
+}
