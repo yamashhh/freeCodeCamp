@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(238, 238, 238);
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 70px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img {
+    max-width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+#nav-links,
+#footer-links {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.links > li {
+    padding: 1.5vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+#email {
+    width: 50vw;
+}
+
+#submit {
+    width: 30vw;
+}
+
+section {
+    padding: 5vh 10vw;
+}
+
+article {
+    padding: 5vh;
+    max-width: 800px;
+}
+
+.pricing-container {
+    border: 1px solid;
+    width: 50vh;
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+    width: 100%;
+    padding: 3vh;
+    background-color: rgb(221, 221, 221);
+}
+
+.description {
+    padding: 0 3vh 3vh 3vh;
+}
+
+.description > li {
+    padding: 1.5vh;
+    text-align: center;
+}
+
+.price {
+    font-size: x-large;
+    padding: 3vh;
+}
+
+.select,
+#submit {
+    padding: 2vh 3vw;
+    margin: 0 3vh 3vh 3vh;
+    font-size: large;
+    background-color: #f1c40f;
+}
+
+.item,
+.select {
+    text-transform: uppercase;
+}
+
+.item,
+.price {
+    font-weight: bold;
+}
+
+footer {
+    width: 100vw;
+    background-color: rgb(221, 221, 221);
+}
+
+footer * {
+    background-color: rgb(221, 221, 221);
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+small {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1.5vw 1.5vw 1.5vw;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
